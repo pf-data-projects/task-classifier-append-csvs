@@ -21,7 +21,7 @@ def hello_http(request):
     output_csv_file = 'task_probabilities.csv'  # Desired output CSV file name
     process_files(input_txt_file, output_csv_file)
     print("csvs appended")
-    return None
+    return "csvs appended"
 
     # if request_json and 'name' in request_json:
     #     name = request_json['name']
